@@ -1,7 +1,7 @@
 {
   "name": "vue3-camera-qrcode-reader",
   "private": false,
-  "version": "0.0.15",
+  "version": "0.0.16",
   "type": "module",
   "files": [
     "dist"
@@ -19,7 +19,9 @@
     "qr code",
     "qrcode",
     "camera",
-    "scan"
+    "scan",
+    "vue3",
+    "vue3-camera-qrcode-reader"
   ],
   "scripts": {
     "dev": "vite",
