@@ -53,6 +53,4 @@ const handleEncodeQRCode = (event: { QRCode: string }) => {
 
 ```sh
 ```
-=======
-# vue3-camera-qrcode-reader
->>>>>>> b9eddcb9ddff7f382eb8e7df512034d8f9dd21d5
+
