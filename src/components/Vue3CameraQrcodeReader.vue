@@ -193,7 +193,7 @@ const handleEncodeQRCode = (event: { QRCode: string }) => {
     </div>
 </template>
 
-<style>
+<style scope>
 @import 'tailwindcss';
 
 @import "tw-animate-css";
