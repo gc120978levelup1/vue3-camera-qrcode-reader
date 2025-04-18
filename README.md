@@ -51,5 +51,10 @@ const handleEncodeQRCode = (event: { QRCode: string }) => {
 ## Installing to npm package
 
 ```sh
+npm login
+```
+
+```sh
+npm publish
 ```
 
