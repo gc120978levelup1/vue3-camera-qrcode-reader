@@ -15,6 +15,12 @@
     }
   },
   "types": "./dist/main.d.ts",
+  "keywords": [
+    "qr code",
+    "qrcode",
+    "camera",
+    "scan"
+  ],
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc && vite build",
