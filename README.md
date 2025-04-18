@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Vue3 Camera QR Code Reader for Laravel + Vue + ShadCn projects
 
 This laravel component is only applicable to projects made in Laravel + Vue + ShadCn
