@@ -28,6 +28,10 @@ const startCam = () => {
     camera.value.flip();
 };
 
+const handleStartVideo = (event) => { // event = stream
+    console.log(event);
+};
+
 const handleTakePix = (event: { URL: object, File: object }) => {
     imageURL.value = event.URL;   // url
     form.image_file = event.File; // file
@@ -41,7 +45,7 @@ const handleEncodeQRCode = (event: { QRCode: string }) => {
 
 <template>
 
-<Vue3CameraQrcodeReader ref="camera" visible="false" @onTakePicture="handleTakePix" @onEncodeQRCode="handleEncodeQRCode"/>
+<Vue3CameraQrcodeReader ref="camera" visible="false" @onTakePicture="handleTakePix" @onEncodeQRCode="handleEncodeQRCode" @onStartVideo="handleStartVideo"/>
 <Button @click="startCam" >Open Camera</Button>
 
 </template>
