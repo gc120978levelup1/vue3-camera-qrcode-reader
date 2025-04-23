@@ -10,7 +10,6 @@ contained in the QR Code.
 
 ```sh
 npm install vue3-camera-qrcode-reader
-npm install @zxing/browser
 ```
 
 ## Project Use Case
