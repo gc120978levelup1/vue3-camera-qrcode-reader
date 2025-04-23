@@ -33,7 +33,7 @@ const handleStartVideo = (event) => { // event = stream
 
 const handleTakePix = (event: { URL: object, File: object }) => {
     imageURL.value = event.URL;   // url
-    form.image_file = event.File; // file
+    form.image_file = event.File; // blob file
 };
 
 const handleEncodeQRCode = (event: { QRCode: string }) => {
